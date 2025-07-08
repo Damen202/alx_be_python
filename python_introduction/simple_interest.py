@@ -3,12 +3,11 @@ P = "principal amount"
 R = "annual interest rate"
 T = "time"
 
-P = 1000
-R = 0.05
-T = 3
+principal = 1000
+rate = 0.05
+time = 3
 
 # calculate the simple interest
-I = P * R * T
-
+The simple interest is = P * R * T
 # print answer
-print(I)
+print(The simple interest is)
