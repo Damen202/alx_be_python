@@ -1,6 +1,6 @@
 # Prompt user for input
 Task = input("Enter your task: ")
-Time_Bound= input("Is it time-bound? yes/no: ")
+Time_Bound= input("Is it time-bound? (yes/no): ")
 Priority = input("Priority (high/medium/low): ")
 
 # perform a match case scenario
