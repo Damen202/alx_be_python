@@ -1,7 +1,7 @@
 # Prompt user for input
-task = input("Enter your task: ")
-priority = input("Priority (high, medium, low): ")
-time = input("Is it time bound? yes or no: ")
+Task = input("Enter your task: ")
+Time_Bound= input("Is it time bound? yes or no: ")
+Priority = input("Priority (high, medium, low): ")
 
 # perform a match case scenario
 match priority:
@@ -11,7 +11,7 @@ match priority:
         print("Reminder: 'Try and finish up your project report' is a high priority task that requires immediate attention today!")
     case 'low':
         print("Note: 'Read a book' is a low priority task. Consider completing it when you have free time.")
-if time == 'yes':
+if Time_Bound == 'yes':
     print("Time is still in bound")
-elif time == 'no':
+elif Time_Bound == 'no':
     print("Time not in bound, immediate action is required based on time sensitivity")
