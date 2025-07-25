@@ -1,4 +1,5 @@
-# temperature conversion 
+# temperature conversion 8
+FAHRENHEIT_TO_CELSIUS_FACTOR and CELSIUS_TO_FAHRENHEIT_FACTOR to store the conversion factors
 def CELSIUS_TO_FAHRENHEIT_FACTOR(celsius):
     return (celsius * 9/5) + 32
 
