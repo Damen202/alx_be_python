@@ -26,15 +26,14 @@ def main():
                 print(f"Removed '{remove_item}' from the shopping list.")
         elif choice == '3':
             # Display the shopping list
-
             if not shopping_list:
                 print("Your shopping list is empty. Add items to get started.")
             else:
                 print(" Item(s) in your shopping list: ")
             for item in shopping_list:
                 print(f"- {item}")
-            print()
-            print("End of shopping list")
+            #print()
+            #print("End of shopping list")
         elif choice == '4':
             print("Goodbye!")
             break
