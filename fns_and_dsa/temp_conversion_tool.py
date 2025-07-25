@@ -1,5 +1,6 @@
-# temperature conversion 8
-FAHRENHEIT_TO_CELSIUS_FACTOR and CELSIUS_TO_FAHRENHEIT_FACTOR to store the conversion factors
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 5/9
+# temperature conversion
 def CELSIUS_TO_FAHRENHEIT_FACTOR(celsius):
     return (celsius * 9/5) + 32
 
@@ -9,7 +10,8 @@ def FAHRENHEIT_TO_CELSIUS_FACTOR(fahrenheit):
 # Main logic
 def main():
     print("=== temperature conversion ===")
-
+    #print(f"FAHRENHEIT_TO_CELSIUS_FACTOR: {FAHRENHEIT_TO_CELSIUS_FACTOR}")
+    #print(f"CELSIUS_TO_FAHRENHEIT_FACTOR: {CELSIUS_TO_FAHRENHEIT_FACTOR}")
     temp_input = input("Enter the temperature to convert: ")
     unit = input("Is this in Celsius or Fahrenheit? (C/F): ")
 
