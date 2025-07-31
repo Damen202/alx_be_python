@@ -5,4 +5,4 @@ def safe_divide(numerator, denominator):
         result = float(numerator) / float(denominator)
         return f"Result: {result:.2f}"
     except (ValueError, ZeroDivisionError) as e:
-        return f"Error: {str(e)}"
+        return f"Error: Cannot be divided by zero"
