@@ -1,6 +1,6 @@
 class BankAccount:
-    def __init__(self, account_balance=0):
-        self.balance = account_balance
+    def __init__(self, current_balance=0):
+        self.balance = current_balance
         self.transaction_history = []
 
     def deposit(self, amount):
