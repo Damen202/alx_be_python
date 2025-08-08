@@ -20,7 +20,7 @@ class EBook(Book):
         return f"EBook: {self.title} by {self.author}, file size: {self.file_size}KB"
 
     def __repr__(self):
-        return f"EBook: '{self.title}', '{self.author}', {self.file_size}KB"
+        return f"EBook: '{self.title}', '{self.author}', file size: {self.file_size}KB"
 
 class PrintBook(Book):
     def __init__(self, title, author, page_count):
