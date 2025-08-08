@@ -1,3 +1,5 @@
+# book_class.py
+
 class Book:
     def __init__(self, title, author, year):
         self.title = title
@@ -12,6 +14,3 @@ class Book:
 
     def __repr__(self):
         return f"Book('{self.title}', '{self.author}', {self.year})"
-
-my_book = Book("1984", "George Orwell", 1949)
-print(repr(my_book))
