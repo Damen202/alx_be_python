@@ -43,8 +43,3 @@ class Library:
     def list_books(self):
         for book in self.books:
             print(book)
-
-    def __del__(self):
-        print("Deleting library and its books")
-        for book in self.books:
-            print(f"Deleting {book.title}")
